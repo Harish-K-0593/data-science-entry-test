@@ -1,4 +1,4 @@
-# NTU Data Science (SCTP) Pre-Assement Technical Test Answers
+# NTU Data Science (SCTP) Pre-Assessment Technical Test Answers
 
 ## Overview
 - This file contains the answers to all 8 questions in the source (src) folder
