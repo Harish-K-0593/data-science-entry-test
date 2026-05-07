@@ -2,14 +2,14 @@
         - Both num and divisor must be numeric.
         - Return True if num is divisible by divisor, False otherwise.'''
 
-# Defining the function which take two parameters
+# Defining the function that takes two parameters
 def check_divisibility(num, divisor):
     
     # To guard against using bool values as either the num or divisor parameter
     if isinstance(num, bool) or isinstance (divisor, bool):
         return False
     
-    # Numeric guard (i.e., num and divisor must be either a int or float)
+    # Numeric guard (i.e., num and divisor must be either an int or a float)
     if not isinstance(num, (int, float)) or not isinstance(divisor, (int, float)):
         return False
     
